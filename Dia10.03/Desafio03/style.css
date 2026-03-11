@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000cb;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+#imagens {  
+    display: flex;
+    margin: 0 auto;
+        text-align: left;
+    
+}
+#ordem {
+    display: block;
+    margin: 0 auto;
+    text-align: right;
+}
