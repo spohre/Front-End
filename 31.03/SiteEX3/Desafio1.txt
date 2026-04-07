@@ -1,0 +1,19 @@
+O display: flex é uma forma de organizar elementos na tela de maneira mais prática e flexível. Quando usamos essa propriedade em um elemento, estamos dizendo ao CSS para alinhar e distribuir automaticamente os itens dentro dele, facilitando a criação de layouts.
+
+O container flex é o elemento pai que recebe o display: flex. É nele que aplicamos as configurações de alinhamento e organização. Tudo que estiver dentro desse container passa a seguir as regras do Flexbox.
+
+Os itens flex são os elementos filhos do container. Eles são organizados automaticamente de acordo com as propriedades definidas no container.
+
+A propriedade flex-direction define a direção dos itens. Pode ser em linha (lado a lado) ou em coluna (um embaixo do outro). É usada quando queremos mudar o sentido do layout.
+
+A propriedade justify-content serve para alinhar os itens no eixo principal (geralmente na horizontal). Ela permite centralizar, colocar espaço entre os elementos ou distribuí-los de diferentes formas.
+
+A propriedade align-items alinha os itens no eixo contrário (geralmente na vertical). É muito usada para centralizar elementos verticalmente.
+
+A propriedade flex-wrap define se os itens devem quebrar para a próxima linha quando não houver espaço. Isso evita que os elementos fiquem espremidos.
+
+A propriedade gap define o espaço entre os itens. É uma forma simples e organizada de controlar o espaçamento sem precisar usar margens.
+
+A propriedade align-content é usada quando os itens quebram linha. Ela alinha as linhas dentro do container, controlando o espaço entre elas.
+
+No geral, o Flexbox serve para facilitar a criação de layouts mais organizados, responsivos e fáceis de ajustar.
