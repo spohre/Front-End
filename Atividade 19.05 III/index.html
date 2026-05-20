@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Basica JavaScript III</title>
+</head>
+<body>
+    <h1 id="Titulo">Aula Básica JavaScript III</h1>
+    <p id="Ex1">Exercicio proposto:Criar um botao que mostre uma mensagem de saudação em um paragrafo pre existente, com base no nome digitado na caixa de texto logo acima do botao.</p>
+
+    <input type="text" id="nameInput" placeholder="Digite seu nome">
+    <button id="greetButton" onclick="mostrarMensagem()">Salvar</button>
+    <p id="greetingMessage"></p>
+<br><br><br><br>
+    <p id="Ex2">Exercício 2: Alterar o estilo de um texto ao clicar em um botão. </p>
+    <p id="vida">O segredo da vida não é ter tudo oque ama, mas amar tudo oque tem!</p>
+    <button id="TrocarEstilo" onclick="TrocarEstilo()">Trocar estilo</button>
+<br><br><br><br>
+    <h2>Exercicio 3: Mudar de cor o plano de fundo da página ao clicar em um botão.</h2>
+    <p>Clique no botao para alterar o fundo</p>
+    <button onclick="trocaCor('lightblue')">Azul</button>
+    <button onclick="trocaCor('lightgreen')">Verde</button>
+    <button onclick="trocaCor('yellow')">Amarelo</button>
+    <button onclick="trocaCor('lightpink')">Rosa</button>
+<br><br><br><br>
+    <h2>Exercicio 4: </h2>
+    <p>1- Crie novos paragrafos utilizando CreateElement e appendChild</p>
+    <p>2- Remove o ultimo paragrafo usando o removeChild e lastelEmentChild</p>
+    <button id="CriaParagrafo" onclick="addParagrafo()">Criar novo paragrafo</button>
+    <button id="RemoveParagrafo" onclick="removerParagrafo()">Remover ultimo paragrafo</button>
+
+    <div id ="texto">
+
+    </div>
+<br><br><br><br>
+    <h2>Exercicio 5:</h2>
+    <p>Mostre uma imagem , ao clicar em um botão.</p>
+    <button id="MostrarImagem" onclick="mostrarImagem()">Mostrar Imagem</button>
+    <button id="EsconderImagem" onclick="esconderImagem()">Esconder Imagem</button>
+    <img src="https://s2.glbimg.com/GSzCiyKHKIS635zElsLAzRADihQ=/e.glbimg.com/og/ed/f/original/2015/12/11/sabre-de-luz.jpg" id="minhaImagem" style="display:none;" alt="Minha Imagem">
+<br><br><br><br>
+    <h2>Exercicio 6:</h2>
+    <p><font color="grey">Troca a imagem para uma imagem do assunto selecionado pelo usuário</font></p>
+    <p>Escolha o Tipo de transporte</p>
+    <select id="select-06" onchange="trocaIMG(this.value)">
+        <option value="bike">Bicicleta</option>
+        <option value="carro">Carro</option>
+        <option value="moto">Moto</option>
+        <option value="onibus">Ônibus</option>
+    </select><br><br>
+    <img src="" width="200px" id="imgEx6" alt="Imagem do meio de transporte">
+    <br><br><br>
+
+    <script src="script.js"></script>    
+</body>
+</html>
